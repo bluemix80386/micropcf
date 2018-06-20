@@ -31,6 +31,11 @@ public class UserController {
 	private User getUserDataOne(){
 		return userService.getUsers().get(2);
 	}
+	
+	@RequestMapping("/HELLO")
+	private String helloOne(){
+		return "Hi welcome to PCF........ ";
+	}
 
 	
 }
