@@ -16,7 +16,7 @@ public class UserService {
 	public UserService(List<User> userlist) {
 		super();
 		userlist = new ArrayList<User>();
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < 10; i++) {
 			User user1 = new User("ssn" + i, "fistrName" + i, "lastName" + i, "courseCode" + i);
 			userlist.add(user1);
 		}
