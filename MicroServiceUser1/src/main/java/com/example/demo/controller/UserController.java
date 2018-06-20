@@ -34,7 +34,7 @@ public class UserController {
 	
 	@RequestMapping("/HELLO")
 	private String helloOne(){
-		return "Hi welcome to PCF........ Manvendra Singh";
+		return "Hi welcome to PCF........ Manvendra Singh Monu Singh";
 	}
 
 	
